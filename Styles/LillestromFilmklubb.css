@@ -1,0 +1,106 @@
+﻿body {
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: x-small; /* Normal text size*/
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* Header*/
+.header {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.header img {
+    width: 468px;
+    height: 120px;
+    margin-bottom: 1em;
+}
+
+/* Table*/
+table {    
+    border: 5px;
+    border-style: ridge;
+    border-collapse: separate;
+    border-spacing: 2em;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#programColumn1 {
+    width: 25%;
+}
+
+#programColumn2 {
+    width: 25%;
+}
+
+#programColumn3 {
+    width: 50%;
+}
+
+td:nth-child(1) {
+    text-align: left;
+    vertical-align: top;
+}
+
+td:nth-child(2) {
+    text-align: center;
+    vertical-align: top;
+}
+
+td:nth-child(3) {
+    text-align: left;
+    vertical-align: top;
+}
+
+td:nth-child(3) strong {
+    font-size: small;
+    color: darkblue;
+}
+
+
+/* Test sizes*/
+.size2 {
+    font-size: small;
+}
+
+.size3 {
+    font-size: medium;
+}
+
+.filmDate, .noHightlightFilmDate {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.filmDateNext {
+    color: red;
+}
+
+.filmName {
+    font-size: medium;
+    color: darkblue;
+}
+
+.filmCountryYear {
+    font-size: small;
+    margin-top: 1em;
+}
+
+#mainPageLink, #footerLinks {
+    font-weight: bold;
+}
