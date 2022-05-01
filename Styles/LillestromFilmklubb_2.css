@@ -1,143 +1,76 @@
 * {
     box-sizing: border-box;
-  }
-
-
-/* Footer */
-footer {
-    text-align: center;
 }
 
-footer p {
-    margin-top: 2em;
-    margin-bottom: 2em;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-/* Header*/
-.header {
-    text-align: center;
-    font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 1em;
+.filmimage-left {
+    width: 50%;
+    height: auto;
 }
 
-.header img {
-    width: 468px;
-    height: 120px;
-    margin-bottom: 1em;
-}
-
-img {
- width: 60%;
- height: auto;   
+.filmimage-middle {
+    width: 60%;
+    height: auto;
 }
 
 .logo {
     width: 30%;
 }
 
-.menu {
-  width: 25%;
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
-}
-
-.main {
-    width: 75%;
+.col-left {
+    text-align:center;
+    width: 30%;
     float: left;
     padding: 15px;
-    border: 1px solid red;
-  }
+    vertical-align: middle;
+}
 
-  @media only screen and (max-width: 768px) {
+.col-middle {
+    width: 40%;
+    float: left;
+    padding: 15px;
+}
+
+.col-right {
+    width: 30%;
+    float: left;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.programs-historic {
+    text-align: center;
+}
+
+#agelimit-image {
+    width: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+
     /* For mobile phones: */
-    .menu {
+    [class*="col-"] {
         width: 100%;
     }
-    .main {
-      width: 100%;
+
+    .col-left {
+        display: none;
     }
-    img, .logo {
-        width: 100%; 
+
+    .col-right {
+        display: none;
     }
-  }
 
-/* Table*/
-/*
-table {    
-    border: 5px;
-    border-style: ridge;
-    border-collapse: separate;
-    border-spacing: 2em;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-*/
+    .programs-historic {
+        display: none;
+    }
 
-#programColumn1 {
-    width: 25%;
-}
-
-#programColumn2 {
-    width: 25%;
-}
-
-#programColumn3 {
-    width: 50%;
-}
-
-td:nth-child(1) {
-    text-align: left;
-    vertical-align: top;
-}
-
-td:nth-child(2) {
-    text-align: center;
-    vertical-align: top;
-}
-
-td:nth-child(3) {
-    text-align: left;
-    vertical-align: top;
-}
-
-td:nth-child(3) strong {
-    font-size: small;
-    color: darkblue;
-}
-
-
-/* Test sizes*/
-.size2 {
-    font-size: small;
-}
-
-.size3 {
-    font-size: medium;
-}
-
-.filmDate, .noHightlightFilmDate {
-    font-size: medium;
-    font-weight: bold;
-    margin-bottom: 1em;
-}
-
-.filmDateNext {
-    color: red;
-}
-
-.filmName {
-    font-size: medium;
-    color: darkblue;
-}
-
-.filmCountryYear {
-    font-size: small;
-    margin-top: 1em;
-}
-
-#mainPageLink, #footerLinks {
-    font-weight: bold;
+    .logo {
+        width: 100%;
+    }
 }
