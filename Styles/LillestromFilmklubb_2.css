@@ -42,8 +42,32 @@
     padding: 15px;
 }
 
-.programs-historic {
-    text-align: center;
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+}
+
+.font-verdana {
+    font-family: Verdana;
+}
+
+.font-size-medium {
+    font-size: medium;
+}
+
+.font-size-large {
+    font-size: large;
+}
+
+.color-red {
+    color: red;
 }
 
 #agelimit-image {
