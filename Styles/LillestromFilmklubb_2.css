@@ -42,6 +42,58 @@
     padding: 15px;
 }
 
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+}
+
+.film-details {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: small;
+}
+
+.main-header-text {
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: medium;
+    color: red;
+}
+
+.film-name-header {
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: large;
+}
+
+[class^='film-description'] {
+    font-family: Verdana;
+}
+.film-description-header {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.film-description-text {
+    font-size: small;
+}
+
+.program-current-link {
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: large;
+}
+
+.programs-historic {
+    text-align: center;
+    font-family: Verdana;
+    font-size: small;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
@@ -51,30 +103,32 @@
     text-align: center;
 }
 
-.image-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 0;
-}
-
 .font-verdana {
     font-family: Verdana;
+}
+
+.font-helvetica {
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 .font-bold {
     font-weight: bold;
 }
+
+.font-size-small {
+    font-size: small;
+}
+
+.font-size-xsmall {
+    font-size: x-small;
+}
+
 .font-size-medium {
     font-size: medium;
 }
 
 .font-size-large {
     font-size: large;
-}
-
-.color-red {
-    color: red;
 }
 
 #agelimit-image {
