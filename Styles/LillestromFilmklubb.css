@@ -101,6 +101,11 @@ td:nth-child(3) strong {
     margin-top: 1em;
 }
 
+.highlight-text {
+    color:red;
+    font-weight: bold;
+}
+
 #mainPageLink, #footerLinks {
     font-weight: bold;
 }

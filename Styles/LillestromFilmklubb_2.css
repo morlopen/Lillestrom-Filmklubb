@@ -81,6 +81,11 @@
     color: blue;
 }
 
+.highlight-text {
+    color:red;
+    font-weight: bold;
+}
+
 .links-row {
     text-align: center;
     font-size: small;
