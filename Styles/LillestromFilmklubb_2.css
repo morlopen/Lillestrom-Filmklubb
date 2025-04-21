@@ -108,6 +108,25 @@
     font-size: small;
 }
 
+.programs-historic-main {
+    font-weight: bold;
+    font-size: large;
+    color: green;
+}
+
+.programs-historic-main option {
+    font-weight: normal;
+    font-size: small;
+    color: blue;
+}
+
+.programs-historic-main option:first-child {
+    font-weight: bold;
+    font-size: small;
+    color: green;
+}
+
+
 .flex-center {
     display: flex;
     justify-content: center;
