@@ -73,6 +73,12 @@
     font-weight: bold;
 }
 
+.film-description-header-blue {
+    font-size: medium;
+    font-weight: bold;
+    color:darkslateblue;
+}
+
 .film-description-text {
     font-size: small;
 }
